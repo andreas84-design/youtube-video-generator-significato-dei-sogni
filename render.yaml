@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: youtube-video-generator
+    env: python
+    plan: free
+    runtime: python
+    region: frankfurt
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 900 --workers 1
