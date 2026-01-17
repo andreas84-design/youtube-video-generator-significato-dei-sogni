@@ -41,7 +41,7 @@ PIXABAY_API_KEY = os.environ.get("PIXABAY_API_KEY")
 GOOGLE_CREDENTIALS_JSON = os.environ.get("GOOGLE_CREDENTIALS_JSON", "")
 
 # ✅ ID FISSO SIGNIFICATO DEI SOGNI (SOSTITUISCI CON TUO SPREADSHEET_ID!)
-SPREADSHEET_ID = "TUO_SPREADSHEET_ID_SOGNI_QUI"
+SPREADSHEET_ID = "1okc3JU-dhnmHHFwuW39NClBNbvEeADOE4pzw1SE3HA4"
 
 # 🔔 Webhook flusso 2 (Significato dei Sogni)
 N8N_WEBHOOK_URL_FLUSSO2 = os.environ.get("N8N_WEBHOOK_URL_SIGNIFICATO_DEI_SOGNI_FLUSSO2", "https://andreas84.app.n8n.cloud/webhook/Significato-dei-sogni-flusso-2-workflow-b")
