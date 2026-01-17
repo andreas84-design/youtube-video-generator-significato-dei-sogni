@@ -8,3 +8,5 @@ google-auth-oauthlib
 botocore
 boto3==1.34.0
 deep-translator==1.11.4
+gspread>=6.1.2
+google-auth>=2.16.0
